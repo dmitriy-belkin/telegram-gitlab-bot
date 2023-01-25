@@ -1,13 +1,13 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 import logging
 from aiogram import Bot, Dispatcher, executor, types
 
 
 # class ApiConfig():
-
-
-API_TOKEN = 'TOKEN'
+gitlab_token = "-----"
+chat_id = "-----"
+API_TOKEN = "----"
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API_TOKEN)
